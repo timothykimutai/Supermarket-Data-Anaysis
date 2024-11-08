@@ -43,9 +43,7 @@ SELECT
     gross_income,
     Rating
 FROM 
-    sales_data
-WHERE 
-    Date >= '2023-01-01';
+    SuperMarket;
 ```
 
 **Explanation**:
@@ -55,12 +53,12 @@ WHERE
 ### Step 2: Data Processing and Analysis in Python
 
 #### Step 2.1: Load Data
-Load the extracted data (assumed saved as `sales_data.csv`) into a pandas DataFrame.
+Load the extracted data (assumed saved as `SuperMarket.csv`) into a pandas DataFrame.
 
 ```python
 import pandas as pd
 
-df = pd.read_csv('sales_data.csv')
+df = pd.read_csv('SuperMarket.csv')
 ```
 
 #### Step 2.2: Data Cleaning
