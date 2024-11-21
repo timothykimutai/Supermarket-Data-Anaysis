@@ -160,4 +160,4 @@ This project provides a comprehensive analysis of retail sales data, utilizing S
 
 --- 
 
-This README serves as a guide to the data analysis process and includes detailed steps to replicate each stage.
+
